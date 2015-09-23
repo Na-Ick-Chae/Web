@@ -1,7 +1,7 @@
 body {
-	font-family: Helvetica, Verdana, sans-serif;
-	color: #939396;
-	background-color: #1D2475;
+	font-family: Verdana, Tahoma, sans-serif;
+	color: #e4e4e4;
+	background-color: #800000;
 	background-position: right top;
 	background-image: url("back.jpg");
 	background-repeat: no-repeat;
@@ -9,22 +9,17 @@ body {
 }
 
 h1 {
-	color: #F7931E;
-	font-size: 40pt;
-	text-shadow: 3px 3px green;
+	color: #9197FF;
+	font-size: 3.0em;
+	text-shadow: 2px 2px black;
 }
 
 h2 {
-	color: #F7931E;
-}
-
-dl {
-	font-size: 70%
+	color: #9197FF;
 }
 
 dt {
 	font-weight: bold;
-	color: #FFF86B;
 }
 
 p:first-letter {
@@ -33,50 +28,46 @@ p:first-letter {
 }
 
 a:link {
-	color: #FF4F4F;
-	text-decoration: none;
-}
-
-/*important까지 했는데 underline이 안없어짐*/
-a:visited {
+	color: #FF8484;
 	text-decoration: none;
 }
 
 a:hover {
+	color: #D678FF;
 	text-decoration: underline;
 }
 
 strong {
-	color: #FFF86B;
+	color: #3BE691;
 }
 
-blockquote:first-line {
-	color: #D1DFEB;
-	text-align: left;
+blockquote {
+	font-size: 80%;
 }
 
 ul, ol {
 	text-align: left;
 }
 
-ul {
-	list-style-type: square;
+ol {
+	list-style: upper-roman;
 }
 
 table, th, td{
-	border: dotted;
+	border: dashed;
 	border-collapse: collapse;
 }
 
-img {
-	outline-width: thick;
-	outline-color: #F7931E;
-	outline-style: ridge;
+tr:nth-child(2) {
+	background-color: blue;
 }
 
-/*:not(img) {
-	outline: none;
-}*/
+img {
+	outline-width: 5px;
+	outline-color: #797979;
+	outline-style: dotted;
+}
+
 a img {
 	outline: none;
 }
