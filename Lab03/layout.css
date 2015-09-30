@@ -87,7 +87,7 @@ p {
 		float: right;
 	}
 
-	* *:hover:not(.article){
+	* *:hover{
 		background-color: #ffff00;
 	}
 
