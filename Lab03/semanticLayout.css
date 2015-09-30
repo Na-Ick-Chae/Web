@@ -12,7 +12,7 @@
 		float: right;
 	}
 
-	* *:hover {
+	div * *:hover:not(section) {
 		background-color: #ffff00;
 	}
 

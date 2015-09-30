@@ -87,7 +87,7 @@ p {
 		float: right;
 	}
 
-	* *:hover{
+	* *:hover:not(){
 		background-color: #ffff00;
 	}
 
@@ -131,9 +131,9 @@ p {
 
 	}
 
-	.article:hover {
+/*	.article:hover {
 		background-color: white;
-	}
+	}*/
 
 	.footer {
 		margin-left: 180px;
