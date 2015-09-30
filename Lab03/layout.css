@@ -131,6 +131,10 @@ p {
 
 	}
 
+	.article:hover {
+		background-color: white;
+	}
+
 	.footer {
 		margin-left: 180px;
 	}
