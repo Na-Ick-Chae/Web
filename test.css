@@ -3,6 +3,10 @@
 	src: url(font/PrimeLight.otf);
 }
 
+span {
+	text-decoration: line-through;
+}
+
 p {
 	font-family: myPrime;
 }
@@ -33,3 +37,31 @@ li:not{
 /*HTML과 CSS를 같이 쓰면 안되는 이유. 1. Blurring Seperation, 2. 	Not Cascading
 css보다 먼저 embed하면 css말고 embed한 녀석의 특성을 따른다. Inline Style 선언이 최우선시 된다. (마지막으로 선언됐고) 하지만 하지말아랑
 <a> tag같은건 상속에서 예외임. css에서 무조건 나중에 Define된게 우선순위를 가짐*/
+
+
+/*
+Set a background color : black for all elements that are not a <p> element:
+
+:not(p) {
+    background: black;
+}
+*/
+
+/*border radius 4가지 속성 알아보기 */
+/*
+border-radius: 1em 2em 3em 4em;
+
+is equivalent to:
+
+border-top-left-radius: 2em 0.5em;
+border-top-right-radius: 1em 3em;
+border-bottom-right-radius: 4em 0.5em;
+border-bottom-left-radius: 1em 3em;
+*/
+
+/*inline element는 width가 늘거나 줄지 않는다 block은 자유자재로!
+p블락을 가운데로 보내고 싶을 때는 margin left, margin right를 auto로 */
+
+/* floating element 쓸때는 html에서 먼저 floating element를 먼저 써주고 p같은걸 밑에 그 후 lapping*/
+
+
