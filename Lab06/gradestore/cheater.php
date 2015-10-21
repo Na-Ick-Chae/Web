@@ -61,20 +61,22 @@
 			<span>You didn't provide a valid credit card number. <a href="http://localhost:8888/Lab06/gradestore/gradestore.html">Try again?</a></span>
 		<?php }
 
-		elseif ($_POST['card'] === "Visa") {
+		if ($_POST['card'] === "Visa") {
 			# code...
 			if ( !preg_match("/^4/", $_POST['credit']) ) { ?>
 				<h1>Sorry</h1>
 				<span>You didn't provide a valid credit card number. <a href="http://localhost:8888/Lab06/gradestore/gradestore.html">Try again?</a></span>
 			<?php }
+				return;
 		}
 
-		elseif ($_POST['card'] === "MasterCard") { 
+		if ($_POST['card'] === "MasterCard") { 
 			# code...
 			if ( !preg_match("/^5/", $_POST['credit']) ) { ?>
 				<h1>Sorry</h1>
 				<span>You didn't provide a valid credit card number. <a href="http://localhost:8888/Lab06/gradestore/gradestore.html">Try again?</a></span>
 			<?php }
+			return;
 		}
 		else { ?>
 
