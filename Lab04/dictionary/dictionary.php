@@ -81,9 +81,9 @@
         <?php
         function getWordsByOrder($listOfWords, $orderby){
             $resultArray = $listOfWords;
-            $resultArray = sort($resultArray);
+            sort($resultArray);
             if($orderby === 1) {
-                $resultArray = rsort($resultArray);
+                rsort($resultArray);
             }
             return $resultArray;
         }
@@ -97,11 +97,12 @@
         <ol>
             <?php
             foreach ($orderedArray as $element) { 
-                $temp = explode(' - ', $element);
-                if (strlen($temp) >= 6) {?>
+                $temp = explode('-', $element);
+                if (strlen($temp[0]) > 6) {?>
             <li class="long"><?=$element?></li>
 
-            <?php } else { ?>
+            <?php } 
+            else { ?>
                 <li><?=$element?></li>
             <?php }
             } ?>

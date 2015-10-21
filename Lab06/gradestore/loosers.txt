@@ -1,0 +1,17 @@
+kevin;ni37fsl;123245;Visa
+kevin;ni37fsl;123245;Visa
+kevin;ni37fsl;123245;Visa
+kevin;ni37fsl;123245;Visa
+kevin;ni37fsl;123245;Visa
+kevin;ni37fsl;123245;Visa
+afs;asfasdf;asdsfd;Visa
+;;;Visa
+;;;Visa
+asf;asdf;asdfds;Visa
+asasdfsdf;asdfasfd;1234567812345678;Visa
+-asasdfsdf;asdfasfd;1234567812345678;Visa
+asasdfsdf;asdfasfd;1234567812345678;Visa
+asadfsdf;asdfasfd;1234567812345678;Visa
+-asadfsdf;asdfasfd;1234567812345678;Visa
+asadfsdf;asdfasfd;4234567812345678;Visa
+asadfsdf;asdfasfd;5234567812345678;Visa
