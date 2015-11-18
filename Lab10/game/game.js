@@ -61,6 +61,12 @@ function selectToResult(){
 		selectedBlocks[i].removeClassName("selected");		
 	}
 	document.getElementById('state').innerHTML = "Checking";
+	for (var i = 0; i < 9; i++) {
+			$$(".block")[i].stopObserving();
+	}
+
+	document.getElementById('answer').innerHTML = "0/0";
+
 	timer = setTimeout(startToSetTarget, interval);
 }
 
